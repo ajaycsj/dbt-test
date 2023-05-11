@@ -1,0 +1,152 @@
+    1  pwd
+    2  cd mnt
+    3  cd /mnt/
+    4  ls
+    5  cd c
+    6  cd ls
+    7  ls
+    8  cd Users
+    9  ls
+   10  cd Admin/
+   11  cd Desktop/
+   12  ls
+   13  pwd
+   14  vim ~/.bashrc
+   15  cd ..
+   16  winhome
+   17  vim ~/.bashrc
+   18  winhome
+   19  cat ~/.bashrc
+   20  vim ~/.bashrc
+   21  cd ..
+   22  winhome
+   23  cd Admin/
+   24  source  ~/.bashrc
+   25  cd ..
+   26  winhome
+   27  ls
+   28  vim ~/.bashrc
+   29  source  ~/.bashrc
+   30  winhome
+   31  curl -o get_pip.py https://bootstrap.pypa.io/get-pip.py
+   32  python ./get_pip.py 
+   33  cd course
+   34  mkdir course
+   35  cd course/
+   36  ls
+   37  pip install virtualenv
+   38  sudo apt install python3-pip
+   39  python ./get_pip.py 
+   40  sudo apt install python3
+   41  python3 --version
+   42  sudo apt install python-is-python3
+   43  sudo apt install python3-pip
+   44  python ./get_pip.py 
+   45  cd ..
+   46  python ./get_pip.py 
+   47  pip install virtualenv
+   48  sudo apt install python3-pip
+   49  sudo add-apt-repository universe
+   50  sudo apt update
+   51  sudo apt install python3-pip
+   52  pip install virtualenv
+   53  /home/satrut/.local/bin/virtualenv --version
+   54  clear
+   55  virtualenv env
+   56  /home/satrut/.local/bin/virtualenv env
+   57  /home/satrut/.local/bin/virtualenv --env
+   58  cd course/
+   59  /home/satrut/.local/bin/virtualenv --env
+   60  /home/satrut/.local/bin/virtualenv env
+   61  python ./get_pip.py 
+   62  cd ..
+   63  python ./get_pip.py 
+   64  vim ~/.bashrc
+   65  python ./get_pip.py
+   66  export PATH=$PATH:/home/satrut/.local/bin
+   67  python ./get_pip.py
+   68  cd course/
+   69  virtualenv env
+   70  source ~/.bashrc
+   71  pip install virtualenv
+   72  virtualenv env
+   73  python -m pip install --upgrade pip
+   74  pip install setuptools, pip install wheel, and pip install pip
+   75  pip install setuptools
+   76  pip install wheel
+   77  pip install pip
+   78  virtualenv env
+   79  /home/satrut/.local/bin/virtualenv env
+   80  clear
+   81  virtualenv env
+   82  sudo pip install pip
+   83  sudo pip install setuptools
+   84  virtualenv env
+   85  clear
+   86  wsl.exe --update
+   87  winhome
+   88  python ./get_pip.py 
+   89  cd course/
+   90  ls
+   91  pip install virtualenv
+   92  virtualenv env
+   93  clear
+   94  ls
+   95  source ./env/bin/activate
+   96  which python
+   97  pip list --format=columns
+   98  pip install dbt-snowflake
+   99  clear
+  100  history > dbt_install.txt
+
+
+
+
+================================================
+dbt init dbtlearn
+
+==============================================
+dbt init dbtlearn
+05:09:29  Running with dbt=1.4.5
+05:09:29  Creating dbt configuration folder at /home/satrut/.dbt
+Which database would you like to use?
+[1] snowflake
+
+(Don't see the one you want? https://docs.getdbt.com/docs/available-adapters)
+
+Enter a number: 1
+account (https://<this_value>.snowflakecomputing.com): ss48210.us-east-2.aws
+user (dev username): dbt
+[1] password
+[2] keypair
+[3] sso
+Desired authentication type option (enter a number): 1
+password (dev password):
+role (dev role): transform
+warehouse (warehouse name): COMPUTE_WH
+database (default database that dbt will build objects in): airbnb
+schema (default schema that dbt will build objects in): dev
+threads (1 or more) [1]: 4
+07:00:04  Profile dbtlearn written to /home/satrut/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+07:00:04
+Your new dbt project "dbtlearn" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+
+source ./env/bin/activate
+cd dbtlearn/
+cat ~/.dbt/profiles.yml
+dbt debug
+code .
