@@ -1,0 +1,42 @@
+To import Spark
+==============================================
+
+import findspark
+findspark.init()
+
+from pyspark.sql import SparkSession
+spark = SparkSession.builder.appName("Practicing PySpark").getOrCreate()
+
+
+
+To Check SparkContext active or not?
+==============================================
+from pyspark.sql import SparkSession
+spark = SparkSession.builder.getOrCreate()
+if spark.sparkContext._jsc is None:
+    print("SparkContext is not active.")
+else:
+    print("SparkContext is active.")
+
+
+To Check SparkContext created or not?
+==============================================
+print("SparkContext is created:", sc is not None)
+print("SparkContext is active:", sc.getConf().get("spark.driver.appUIAddress", "") != "")
+
+
+To create SparkContext?
+==============================================
+from pyspark import SparkContext
+
+sc = SparkContext.getOrCreate()
+
+==============================================
+
+from pyspark import SparkContext
+
+sc = SparkContext.getOrCreate()
+sc.stop()
+
+conf = SparkConf().setAppName("CreateDataFrameExample")
+sc = SparkContext(conf=conf)

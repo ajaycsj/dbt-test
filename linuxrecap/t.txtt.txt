@@ -1,0 +1,38 @@
+Month : month in YYYY-MM format
+NameTerritory : Name of the Territory
+TrProcess : Transactions in process (Quantity)
+TrApproved : Approved Transactions (Quantity)
+TrBackordered : Overdue Transactions (Quantity)
+TrRejected : Rejected Transactions (Quantity)
+TrShipped : Transactions Sent (Amount)
+TrCanceled : Transactions Canceled (Quantity)
+MntProcess: Total amount in process
+MntApproved: Total amount Approved
+MntBackordered: Total Amount Arrears
+MntRejected: Total Rejected amount
+MntShipped: Total amount sent
+MntCanceled: Total amount Canceled
+
+List dropped or deleted objects and rows
+Put multiple rows in a single column
+Search Query history
+Table row counts
+View all connections
+Find all references to a particular SP
+Find all text in all SPs across a DB
+Find all text in all SPs, function, triggers and views in a DB
+Find all text in SPs and functions in *all *DBs across a server
+Find all text in SPs, functions, triggers, and views in *all *DBs across a server (combining the last two)
+View all columns (or with a particular name) in a DB
+Get all Logins (Servers)
+Get all users (Database)
+Get all triggers
+View Foreign Key table info
+Check DB Encryption
+Get all users and their roles from all DBs
+Get all roles with permissions from all DBs
+
+https://www.quora.com/Is-there-any-website-for-SQL-server-complex-queries-practice
+
+
+2+ years of experience as a data practitioner with a strong background in Python and R. Experienced with databases like PostgreSQL and SQL Server. Proficient in visualizing insights with Tableau and Power BI.
